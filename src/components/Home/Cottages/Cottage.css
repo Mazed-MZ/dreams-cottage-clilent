@@ -1,0 +1,32 @@
+.icon-img{
+    padding: 4%;
+}
+.icon-img img{
+    width: 100px;
+    height: 100px;
+}
+.cottages{
+    margin: 2%;
+}
+.carts{
+    border-top: 2px solid gray;
+}
+.ctg-img img{
+    width: 350px;
+    height: 250px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.ctg-img{
+    margin: 5%;
+    background: lightyellow;
+}
+.ctg-item{
+    width: 390px;
+}
+.card-item{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}

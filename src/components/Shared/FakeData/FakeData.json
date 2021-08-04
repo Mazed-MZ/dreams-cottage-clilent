@@ -1,0 +1,36 @@
+[{
+    "id": "1011",
+    "title": "Eden Garden",
+    "country": "Swiden",
+    "decoration": "👨‍👩‍👧5    |    🛌3    | 🛀2",
+    "description": "Most attractive cottage upcomming holiday vacation",
+    "image": "https://i.ibb.co/GJD7WZV/a542b72ccd750db377f61e94c1186115-p-e.jpg"
+  }, {
+    "id": "1012",
+    "title": "Royal Cottage",
+    "country": "Newziland",
+    "decoration": "👨‍👩‍👧6    |    🛌3    |    🛀3",
+    "description": "One of popular and attractive cottage in our collection with includ VIP services.",
+    "image": "https://i.ibb.co/ZMCrLhg/european-house-plans-home-design-ideas-169950-670x400.jpg"
+  }, {
+    "id": "1013",
+    "title": "Mountain Cottage",
+    "country": "India",
+    "decoration": "👨‍👩‍👧3    |    🛌2    |    🛀1",
+    "description": "Best cottage ever with natural beauty situated in green hill track.",
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/151461786.jpg?k=ca7dea1b21c0451dde630657547ff105730359b698975049f864b213088ce2d6&o=&hp=1"
+  }, {
+    "id": "1014",
+    "title": "Blue Water Cottage",
+    "country": "Austrailia",
+    "decoration": "👨‍👩‍👧2    |    🛌1    |    🛀1",
+    "description": "One of best place for holiday vacation. Here is included swimming pull and highly decorated cottage.",
+    "image": "https://media.architecturaldigest.com/photos/60b9034320b2a05c5e0958e7/16:9/w_2560%2Cc_limit/25_Walnut_27_LR.jpg"
+  }, {
+    "id": "1015",
+    "title": "Green Cottage",
+    "country": "Bangladesh",
+    "decoration": "👨‍👩‍👧2    |    🛌1    |    🛀2",
+    "description": "Beautiful cottage with green enviornment and natural beauty. Which is most interesting place for holiday.",
+    "image": "https://images.wisegeek.com/chalet-style-cottage.jpg"
+  }]
