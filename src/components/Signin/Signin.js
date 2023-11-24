@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Footer from '../Footer/Footer';
 import Navigation from '../Home/Navigation/Nav';
 import Toggle from '../Shared/PasswordToggle/Toggle';
@@ -6,6 +6,8 @@ import './Signin.css';
 import firebaseConfig from './firebase.config';
 import firebase from "firebase/app";
 import "firebase/auth";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 
 if (!firebase.apps.length) {
@@ -15,6 +17,10 @@ if (!firebase.apps.length) {
 }
 
 const Signin = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, []);
 
     const [passInput, toggleIcon] = Toggle()
 
@@ -31,7 +37,7 @@ const Signin = () => {
                         </div>
                         <div className='field space'>
                             <span className='fa fa-lock'></span>
-                            <input className='pass' required type={passInput} name="" placeholder='Password' id="" />
+                            <input className='pass' required type={passInput} name="" placeholder='Set new password' id="" />
                             <span className='show'>{toggleIcon}</span>
                         </div>
                         <div className='field space'>

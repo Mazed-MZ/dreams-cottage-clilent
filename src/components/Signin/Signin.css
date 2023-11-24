@@ -1,5 +1,5 @@
 .bg-img{
-    background: url("https://i.ibb.co/GJD7WZV/a542b72ccd750db377f61e94c1186115-p-e.jpg");
+    background: url("https://www.collinsdictionary.com/images/full/cottage_141426904.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -24,7 +24,7 @@
     z-index: 1;
     padding: 60px 32px;
     background: rgba(255,255,255,0.04);
-    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 15px 50px 0px rgba(0,0,0,0.95);
 }
 .content h2{
     color: #fff;
@@ -115,16 +115,24 @@ input[type='submit']:focus{
     font-weight: 500;
     font-family: 'Poppins',sans-serif;
 }
-.google-btn, .fb-btn{
+.fb-btn{
     width: 100%;
     height: 42px;
     line-height: 45px;
     margin-top: 10px;
     border-radius: 24px;
 }
+.google-btn{
+    width: 100%;
+    height: 42px;
+    line-height: 45px;
+    margin-top: 10px;
+    border-radius: 24px;
+    color: black;
+}
 .fb-btn{
     background: #4267B2;
 }
 .google-btn{
-    background:linear-gradient(60deg, red, yellow, green);
+    background:linear-gradient(90deg, red, yellow, green, #4267B2);
 }

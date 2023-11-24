@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+.slider{
+    width: 880px;
+    padding: 1%;
+    position: relative;
+    left: 18%;
+}
+img{
+    border-radius: 10px;
+}
+.ctg-details{
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0;
+}
+.ctg-info{
+    border-top: 1px solid gray;
+    padding-top: 3%;
+}
+.short-info{
+    padding-bottom: 3%;
+}
+.requir-cart{
+    padding: 3%;
+    box-shadow: 5px 10px 10px lightgray;
+    border-radius: 20px;
+}
+.rent-cart{
+    margin-top: 10%;
+    padding: 3%;
+    box-shadow: 5px 10px 10px lightgray;
+    border-radius: 20px;
+}
+.cart-tag p{
+    font-size: 20px;
+}
+.cart-tag button{
+    margin-left: 10%;
+}
+.inputs label{
+    margin-right: 15%;
+    font-size: 20px;
+}
+.input-group input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #F3F5FF;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+@media screen and (max-width: 768px) {
+    .slider {
+        width: 450px;
+        position: relative;
+        left: 3%;
+    }
+  }

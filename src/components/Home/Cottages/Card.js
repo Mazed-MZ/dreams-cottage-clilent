@@ -6,15 +6,12 @@ import 'aos/dist/aos.css';
 
 const Card = (props) => {
 
-    const { title, image, country, decoration } = props.info;
+    const { title, image, country, decoration, id} = props.info;
 
     useEffect(() => {
         Aos.init({ duration: 2000 });
     }, []);
 
-    const handleCtgButton = (data) =>{
-        console.log(data);
-    }
 
     return (
         <div>
@@ -24,7 +21,7 @@ const Card = (props) => {
                         <h5 class="card-title">{title}</h5>
                         <small>Country: {country}</small>
                         <p>{decoration}</p>
-                        <Link to='/host'><button class="btn btn-dark" onClick={()=> handleCtgButton(props.info)}>See Details</button></Link>
+                        <Link to={'/host/'+id}><button class="btn btn-dark" onClick={()=> props.handleCtgButton(props.info)}>See Details</button></Link>
                     </div>
             </div>
         </div>

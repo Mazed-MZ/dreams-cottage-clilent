@@ -24,7 +24,7 @@ function App() {
         <Route path='/signin'>
           <Signin></Signin>
         </Route>
-        <Route path='/host'>
+        <Route path='/host/:apiKey'>
           <HostCottage></HostCottage>
         </Route>
         <Route>

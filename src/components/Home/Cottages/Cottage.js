@@ -11,7 +11,9 @@ const Cottage = () => {
     }, []);
 
     const cottageData = fakeData;
-    
+    const handleCtgButton = (cd) =>{
+        console.log(cd);
+    }
 
     return (
         <div>
@@ -41,7 +43,7 @@ const Cottage = () => {
                 <h1>Most Popular Cottages</h1>
                 <div className='card-item justify-content-center carts'>
                     {
-                        cottageData.map(data => <Card info={data}></Card>)
+                        cottageData.map(data => <Card info={data} key={data.id} handleCtgButton={handleCtgButton}></Card>)
                     }
                 </div>
             </div>
